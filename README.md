@@ -3,7 +3,7 @@ We propose a adversarial attack method that created the adversarial case using a
 
 ## Preparation
 * **Attacked model:** VGG-Face Net ([Introduction](https://www.robots.ox.ac.uk/~vgg/software/vgg_face/))
-* **Dataset:** VGG Face Dataset(We only use the part of the VGG Face dataset in this experiment.If you want to download, please click [here](https://1drv.ms/u/s!ArO-oAeuF5tOcYey7E4l571LLcI?e=iUo7Tn))
+* **Dataset:** VGG Face Dataset(We only use the part of the VGG Face dataset in this experiment.If you want to download, please click [here](https://drive.google.com/drive/folders/18XatddXTZbj8d9LSOQ3oHFZ2j4Fso3UT))
 * **Logo:** Barcelona logo，Instagram logo
 * **Algorithm:** Deepfool+Universal adversarial perturbations(stamp)([References1](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Moosavi-Dezfooli_DeepFool_A_Simple_CVPR_2016_paper.pdf)) ([References2](http://openaccess.thecvf.com/content_cvpr_2017/papers/Moosavi-Dezfooli_Universal_Adversarial_Perturbations_CVPR_2017_paper.pdf))
 * **Pytorch** ([Instructions](https://pytorch.org/get-started/locally/))
@@ -61,7 +61,7 @@ Then generate the universal adversarial stamp:
 
 * `rtot_pkl`: Save the final perterbation in pkl format.
 
-4.Please put the downloaded model weights into the `model` folder([Download](https://1drv.ms/u/s!ArO-oAeuF5tOcYey7E4l571LLcI?e=iUo7Tn)). And according to the path to save the result in `config.yaml`, create the corresponding folder.
+4.Please put the downloaded model weights into the `model` folder([Download](https://drive.google.com/drive/folders/10Wd8zSJ7e5-ivZO3nHwCI-lH0vFIl8o4)). And according to the path to save the result in `config.yaml`, create the corresponding folder.
 
 5.Generation of Universal Adversarial Image Stamp:
 ![examples](examples/ual.jpg)
