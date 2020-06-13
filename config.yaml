@@ -1,0 +1,39 @@
+1:
+  sp : left-down
+  logoName : ins
+  MaskAll : False
+  train:
+    - 1
+    - 1000
+  test:
+    - 1001
+    - 8001
+  threshold : 500
+  maxiter : 10
+  v_path : "./UAPResult/ins/pert_left-down_80size.png"
+  maskzone_path : "./UAPResult/ins/log-pert_left-down_80size.png" 
+  v_path2 : "./UAPResult/ins/"
+  maskzone_path2 : "./UAPResult/ins/"
+  logfile2 : "./paper_result/ins/test1-log.txt"
+  logfile3 : "./paper_result/ins/test2-log.txt"
+  rtot_pkl : "./UAPResult/ins/rtot_left-down.pkl"
+  
+2:
+  sp : left-down
+  logoName : basa
+  MaskAll : False
+  train:
+    - 1
+    - 1000
+  test:
+    - 9001
+    - 16000
+  threshold : 500
+  maxiter : 10
+  v_path : "./UAPResult/basa/pert_left-down_80size.jpg"
+  maskzone_path : "./UAPResult/basa/log-pert_left-down_80size.jpg"
+  v_path2 : "./UAPResult/basa/"
+  maskzone_path2 : "./UAPResult/basa/"
+  logfile2 : "./paper_result/basa/test1-log.txt"
+  logfile3 : "./paper_result/basa/test2-log.txt"
+  rtot_pkl : "./UAPResult/basa/rtot_left-down.pkl"
