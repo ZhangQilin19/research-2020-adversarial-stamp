@@ -68,4 +68,3 @@ Then generate the universal adversarial stamp:
 
 ## Example
 ![examples](examples/result2.jpg)
-![examples](examples/result3.jpg)
