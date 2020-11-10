@@ -65,6 +65,3 @@ Then generate the universal adversarial stamp:
 
 5.Generation of Universal Adversarial Image Stamp:
 ![examples](examples/ual.jpg)
-
-## Example
-![examples](examples/result2.jpg)
